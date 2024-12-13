@@ -1,0 +1,14 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.detail{
+  padding: 50px;
+}
+.detail .col{
+  text-align: center;
+}
+.detail .col img{width: 50%;}
+.row{display: flex; flex-direction: column;}
+.detail .row h4{padding: 10px 0; font-size: 16px;}
+.detail .row p{font-size: 14px; padding: 5px 0;}
+.detail .row .btn{border:none; background-color: #800505; margin-right: 10px; padding: 10px; color: #fff; cursor: pointer;}
+
+.alert{width: 100%; text-align: center; background-color: #800505; color: #fff; padding: 20px 0;}

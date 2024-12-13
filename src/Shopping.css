@@ -1,0 +1,36 @@
+
+.main-bg{
+  /* height: 500px; */
+ /*  background-image: url('./img/img.jpg'); */
+  background-size: cover;
+  width: 100%
+}
+.main-bg img{width: 100%}
+.mt20{margin-top: 20px;}
+.title{text-align: center;}
+.title p{
+  line-height: 200%;
+}
+.in h2, .in h1{text-align: center;}
+.row,
+.cards-container{width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 20px; box-sizing: border-box; display: flex; flex-wrap: wrap;justify-content: space-between;}
+.cards-container a{margin: 20px 0; color: #333;}
+.price{
+  font-weight: bold;
+}
+.s-title{
+  font-size: 16px;
+}
+.category{
+  color: #959595;
+  font-size: 12px;
+}
+
+/* today */
+.today{
+  padding: 20px 50px;
+}
+.today h4,
+.today h2{
+  text-align: center;
+}

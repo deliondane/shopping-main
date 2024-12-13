@@ -1,0 +1,16 @@
+.cartTable{
+  width: 100%;
+  padding: 0 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.cartTable table{
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+.cartTable table tr th{border: 1px solid #ddd; padding: 5px 20px; font-size: 14px;}
+.cartTable table tr th:nth-child(1){width: 10%;}
+.cartTable table tr th:nth-child(2){width: 60%;}
+.cartTable table tr th:nth-child(3){width: 10%;}
+.cartTable table tr th:nth-child(4){width: 20%;}
+.cartTable table tr td{border: 1px solid #ddd; padding: 5px 20px; font-size: 14px; text-align: center;}
